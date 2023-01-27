@@ -1,39 +1,31 @@
-<!-- <div class="display-5 m-5" *ngFor="let node of nodes">
-  <fa-icon
-    class="icon"
-    (click)="openSubMenu(node.title)"
-    [icon]="faPlusCircle"
-  ></fa-icon>
-  {{ node.title }}
-  <button (click)="addChild(node)">Add Child</button>
-
-   <app-node></app-node> 
-
-  <div *>
-    <div class="display-5 m-5" *ngFor="let node of rootLeve1Nodes">
-      <fa-icon
-        class="icon"
-        (click)="openSubMenu(node.title)"
-        [icon]="faPlusCircle"
-      ></fa-icon>
-      {{ node.title }}
-      <button (click)="addChild(node)">Add Child</button>
-    </div>
-  </div>
-</div> -->
-
 <div class="display-5 m-5">
   <section>
+    <!-- COMPANY + ICON -->
     <fa-icon
       (click)="ShowLevel1('company')"
       class="icon"
       [icon]="faPlusCircle"
     ></fa-icon>
     <span>Company</span>
+    <span class="button">
+      <button (click)="showTextField()">+ Add Rule</button>
+    </span>
 
-    <!-- LEVEL-1 -->
+    <!--TODO: (COMPANY) TEXT FIELD  -->
+    <div class="mt-4 ms-5" *ngIf="textFieldLevel1">
+      <input
+        class="inputField"
+        placeholder="Write a New Rule"
+        type="text"
+        [(ngModel)]="textFieldValue1"
+      />
+      <button (click)="saveButton()" class="save-button">Save</button>
+      <button (click)="cancelButton()" class="cancel-button">Cancel</button>
+    </div>
+
+    <!--TODO: ROOT-1 + BUTTON -->
     <div *ngIf="level1Menu" class="ms-5 mt-3">
-      <div class="display-5 m-4" *ngFor="let node of rootLeve1Nodes">
+      <div class="display-6 m-4" *ngFor="let node of rootLeve1Nodes">
         <fa-icon
           (click)="showLevel2(node.title)"
           class="icon"
@@ -41,11 +33,54 @@
         ></fa-icon>
 
         <span class="m-2">{{ node.title }}</span>
+        <span class="button">
+          <button (click)="showTextField2(node.title)">+ Add Rule</button>
+        </span>
 
-        <!-- LEVEL-2 -->
+        <span>
+          <fa-icon
+            (click)="showEditTextField(node.title)"
+            class="other-icons"
+            [icon]="faPen"
+          ></fa-icon>
+        </span>
+
+        <!-- ROOT-1 TEXT FIELD -->
+        <div *ngIf="node.title === nodeTitle2">
+          <div class="mt-4 ms-5" *ngIf="textFieldLevel2">
+            <input
+              class="inputField"
+              placeholder="Write a New Rule"
+              type="text"
+              [(ngModel)]="textFieldValue1"
+            />
+            <button (click)="saveButtonRoot2(node.title)" class="save-button">
+              Save
+            </button>
+            <button (click)="cancelButtonRoot2()" class="cancel-button">
+              Cancel
+            </button>
+          </div>
+        </div>
+
+        <!-- (ROOT-1) EDIT -->
+        <div *ngIf="node.title === nodeTitle2">
+          <div class="mt-4 ms-5" *ngIf="editTextFieldLeve1">
+            <input
+              class="inputField"
+              placeholder="Edit Name"
+              type="text"
+              [(ngModel)]="editTextFieldValue1"
+            />
+            <button (click)="EditButton()" class="save-button">Edit</button>
+            <button (click)="cancelEdit()" class="cancel-button">Cancel</button>
+          </div>
+        </div>
+
+        <!--TODO: ROOT-2 LEVEL-2 -->
         <div class="ms-5 mt-3" *ngIf="node.title === nodeTitle2">
           <div *ngIf="level2Menu">
-            <div class="display-5 m-4" *ngFor="let node of rootLeve2Nodes">
+            <div class="display-6 m-4" *ngFor="let node of rootLeve2Nodes">
               <fa-icon
                 (click)="showLevel3(node.title)"
                 class="icon"
@@ -53,12 +88,65 @@
               ></fa-icon>
 
               <span class="m-2">{{ node.title }}</span>
+              <span class="button">
+                <button (click)="showTextField3(node.title)">+ Add Rule</button>
+              </span>
+
+              <span>
+                <fa-icon
+                  (click)="showEditTextField2(node.title)"
+                  class="other-icons"
+                  [icon]="faPen"
+                ></fa-icon>
+              </span>
+
+              <!-- ROOT-2 TEXT FIELD -->
+              <div *ngIf="node.title === nodeTitle3">
+                <div class="mt-4 ms-5" *ngIf="textFieldLevel3">
+                  <input
+                    class="inputField"
+                    placeholder="Write a New Rule"
+                    type="text"
+                    [(ngModel)]="textFieldValue1"
+                  />
+                  <button
+                    (click)="saveButtonRoot3(node.title)"
+                    class="save-button"
+                  >
+                    Save
+                  </button>
+                  <button (click)="cancelButtonRoot3()" class="cancel-button">
+                    Cancel
+                  </button>
+                </div>
+              </div>
+
+              <!-- ROOT-2 EDIT -->
+
+              <div *ngIf="node.title === nodeTitle3">
+                <div class="mt-4 ms-5" *ngIf="editTextFieldLeve2">
+                  <input
+                    class="inputField"
+                    placeholder="Edit Name"
+                    type="text"
+                    [(ngModel)]="editTextFieldValue1"
+                  />
+                  <button (click)="EditButtonRoot2()" class="save-button">
+                    Edit
+                  </button>
+                  <button (click)="cancelEditRoot2()" class="cancel-button">
+                    Cancel
+                  </button>
+                </div>
+              </div>
+
+              <!--END-->
 
               <!-- LEVEL-3 -->
               <div class="ms-5 mt-3" *ngIf="node.title === nodeTitle3">
                 <div *ngIf="level3Menu">
                   <div
-                    class="display-5 m-4"
+                    class="display-6 m-4"
                     *ngFor="let node of rootLeve3Nodes"
                   >
                     <fa-icon
@@ -71,14 +159,12 @@
                   </div>
                 </div>
               </div>
-              <!-- LEVEL -->
+              <!-- END-->
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- LEVEL-2 -->
 </div>
 <div></div>

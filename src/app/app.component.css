@@ -3,3 +3,48 @@
   cursor: pointer;
   margin: 10px;
 }
+
+.other-icons {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+span > button {
+  border: none;
+  font-size: 25px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.button {
+  background-color: #eaeaea;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.inputField {
+  background-color: #f2f2f2;
+  border: none;
+  width: 25%;
+  height: 60px;
+  font-size: 25px;
+}
+
+.inputField::placeholder {
+  padding-left: 20px;
+  color: #000000;
+}
+.inputField ~ button {
+  margin-left: 20px;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.save-button {
+  background-color: #272626;
+  color: #ffffff;
+}
+
+.cancel-button {
+  background-color: transparent;
+}

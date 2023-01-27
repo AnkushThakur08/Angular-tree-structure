@@ -6,44 +6,65 @@
         {
           "title": "Services",
           "rootOneId": "1",
-
           "rootTwoSubMenu": [
             {
               "title": "Technical Services",
               "rootThreeSubMenu": [
-                { "title": "Yes, work done in Singapore MORE than 183 days" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
+                {
+                  "title": "Yes, work done in Singapore MORE than 183 days"
+                },
+                {
+                  "title": "Yes, work done in Singapore LESS than 183 days"
+                },
+                {
+                  "title": "Work not done in Singapore"
+                },
+                {
+                  "title": "Rental/Leasing of Movable Property"
+                }
               ]
             },
-
             {
               "title": "Consulting Services",
               "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
+                {
+                  "title": "Yes, Consulting submenu 2"
+                },
+                {
+                  "title": "Yes, work done in Singapore LESS than 183 days"
+                },
+                {
+                  "title": "Work not done in Singapore"
+                },
+                {
+                  "title": "Rental/Leasing of Movable Property"
+                }
               ]
             },
             {
               "title": "Management Services",
               "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, Consulting submenu 2" }
+                {
+                  "title": "Yes, Consulting submenu 2"
+                },
+                {
+                  "title": "Yes, Consulting submenu 2"
+                }
               ]
             },
             {
               "title": "Certification Services",
-              "rootThreeSubMenu": [{ "title": "Yes, Consulting submenu 2" }]
+              "rootThreeSubMenu": [
+                {
+                  "title": "Yes, Consulting submenu 2"
+                }
+              ]
             }
           ]
         },
         {
           "title": "Transportation",
           "rootOneId": "2",
-
           "rootTwoSubMenu": [
             {
               "title": "Transport Technical Services",
@@ -54,33 +75,59 @@
                 {
                   "title": " Transport Yes, work done in Singapore LESS than 183 days"
                 },
-                { "title": " Transport Work not done in Singapore" },
-                { "title": " Transport Rental/Leasing of Movable Property" }
+                {
+                  "title": " Transport Work not done in Singapore"
+                },
+                {
+                  "title": " Transport Rental/Leasing of Movable Property"
+                }
               ]
             },
             {
               "title": "Transport Consulting Services",
               "rootThreeSubMenu": [
-                { "title": "Transport Yes, Consulting submenu 1" },
+                {
+                  "title": "Transport Yes, Consulting submenu 1"
+                },
                 {
                   "title": "Transport Yes, work done in Singapore LESS than 183 days"
                 },
-                { "title": "Transport Work not done in Singapore" },
-                { "title": "Transport Rental/Leasing of Movable Property" }
+                {
+                  "title": "Transport Work not done in Singapore"
+                },
+                {
+                  "title": "Transport Rental/Leasing of Movable Property"
+                }
               ]
             },
             {
               "title": "Transport Management Services",
               "rootThreeSubMenu": [
-                { "title": "Transport Yes, Consulting submenu 1" },
+                {
+                  "title": "Transport Yes, Consulting submenu 1"
+                },
                 {
                   "title": "Transport Yes, work done in Singapore LESS than 183 days"
                 },
-                { "title": "Transport Work not done in Singapore" },
-                { "title": "Transport Rental/Leasing of Movable Property" }
+                {
+                  "title": "Transport Work not done in Singapore"
+                },
+                {
+                  "title": "Transport Rental/Leasing of Movable Property"
+                }
               ]
             },
-            { "title": "Transport Certification Services" }
+            {
+              "title": "Transport Certification Services",
+              "rootThreeSubMenu": [
+                {
+                  "title": "Transport Yes, Consulting submenu 1"
+                },
+                {
+                  "title": "Transport Yes, Consulting submenu 1"
+                }
+              ]
+            }
           ]
         },
         {
@@ -90,31 +137,55 @@
             {
               "title": "Technical Services",
               "rootThreeSubMenu": [
-                { "title": "Yes, work done in Singapore MORE than 183 days" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
+                {
+                  "title": "Yes, work done in Singapore MORE than 183 days"
+                },
+                {
+                  "title": "Yes, work done in Singapore LESS than 183 days"
+                },
+                {
+                  "title": "Work not done in Singapore"
+                },
+                {
+                  "title": "Rental/Leasing of Movable Property"
+                }
               ]
             },
             {
               "title": "Consulting Services",
               "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
+                {
+                  "title": "Yes, Consulting submenu 2"
+                },
+                {
+                  "title": "Yes, work done in Singapore LESS than 183 days"
+                },
+                {
+                  "title": "Work not done in Singapore"
+                },
+                {
+                  "title": "Rental/Leasing of Movable Property"
+                }
               ]
             },
             {
               "title": "Management Services",
               "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, Consulting submenu 2" }
+                {
+                  "title": "Yes, Consulting submenu 2"
+                },
+                {
+                  "title": "Yes, Consulting submenu 2"
+                }
               ]
             },
             {
               "title": "Certification Services",
-              "rootThreeSubMenu": [{ "title": "Yes, Consulting submenu 2" }]
+              "rootThreeSubMenu": [
+                {
+                  "title": "Yes, Consulting submenu 2"
+                }
+              ]
             }
           ]
         },
@@ -122,136 +193,14 @@
           "title": "Rental/Leasing of Movable Property ANKUSH",
           "rootOneId": "4",
           "rootTwoSubMenu": [
-            { "title": "Yes, Consulting submenu 2" },
-            { "title": "Yes, Consulting submenu 2" }
-          ]
-        }
-      ]
-    },
-
-    {
-      "title": "Individual",
-      "rootOneSubMenu": [
-        {
-          "title": "Services",
-          "rootOneId": "1",
-
-          "rootTwoSubMenu": [
             {
-              "title": "Technical Services",
+              "title": "Rental Thing",
               "rootThreeSubMenu": [
-                { "title": "Yes, work done in Singapore MORE than 183 days" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
+                {
+                  "title": "Rental/Leasing of Movable Property"
+                }
               ]
-            },
-            {
-              "title": "Consulting Services",
-              "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
-              ]
-            },
-            {
-              "title": "Management Services",
-              "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, Consulting submenu 2" }
-              ]
-            },
-            {
-              "title": "Certification Services",
-              "rootThreeSubMenu": [{ "title": "Yes, Consulting submenu 2" }]
             }
-          ]
-        },
-        {
-          "title": "Transportation",
-          "rootOneId": "2",
-
-          "rootTwoSubMenu": [
-            {
-              "title": "Transport Technical Services",
-              "rootThreeSubMenu": [
-                {
-                  "title": " Transport Yes, work done in Singapore MORE than 183 days"
-                },
-                {
-                  "title": " Transport Yes, work done in Singapore LESS than 183 days"
-                },
-                { "title": " Transport Work not done in Singapore" },
-                { "title": " Transport Rental/Leasing of Movable Property" }
-              ]
-            },
-            {
-              "title": "Transport Consulting Services",
-              "rootThreeSubMenu": [
-                { "title": "Transport Yes, Consulting submenu 1" },
-                {
-                  "title": "Transport Yes, work done in Singapore LESS than 183 days"
-                },
-                { "title": "Transport Work not done in Singapore" },
-                { "title": "Transport Rental/Leasing of Movable Property" }
-              ]
-            },
-            {
-              "title": "Transport Management Services",
-              "rootThreeSubMenu": [
-                { "title": "Transport Yes, Consulting submenu 1" },
-                {
-                  "title": "Transport Yes, work done in Singapore LESS than 183 days"
-                },
-                { "title": "Transport Work not done in Singapore" },
-                { "title": "Transport Rental/Leasing of Movable Property" }
-              ]
-            },
-            { "title": "Transport Certification Services" }
-          ]
-        },
-        {
-          "title": "Software/Info/Digited Goods",
-          "rootOneId": "3",
-          "rootTwoSubMenu": [
-            {
-              "title": "Technical Services",
-              "rootThreeSubMenu": [
-                { "title": "Yes, work done in Singapore MORE than 183 days" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
-              ]
-            },
-            {
-              "title": "Consulting Services",
-              "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, work done in Singapore LESS than 183 days" },
-                { "title": "Work not done in Singapore" },
-                { "title": "Rental/Leasing of Movable Property" }
-              ]
-            },
-            {
-              "title": "Management Services",
-              "rootThreeSubMenu": [
-                { "title": "Yes, Consulting submenu 2" },
-                { "title": "Yes, Consulting submenu 2" }
-              ]
-            },
-            {
-              "title": "Certification Services",
-              "rootThreeSubMenu": [{ "title": "Yes, Consulting submenu 2" }]
-            }
-          ]
-        },
-        {
-          "title": "Rental/Leasing of Movable Property",
-          "rootOneId": "4",
-          "rootTwoSubMenu": [
-            { "title": "Yes, Consulting submenu 2" },
-            { "title": "Yes, Consulting submenu 2" }
           ]
         }
       ]

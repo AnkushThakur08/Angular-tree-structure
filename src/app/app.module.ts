@@ -7,11 +7,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // HTTP
 import { HttpClientModule } from '@angular/common/http';
 
+// Forms
+import { FormsModule } from '@angular/forms';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HttpClientModule, FontAwesomeModule],
+  imports: [BrowserModule, HttpClientModule, FontAwesomeModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
